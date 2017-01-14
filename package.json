@@ -1,0 +1,14 @@
+{
+    "name": "check-coordinate",
+    "version": "1.0.0",
+    "description": "查看坐标",
+    "main": "app.js",
+    "scripts": {
+        "package": "electron-packager . check-coordinate --platform=win32 --arch=all --out=..\\out\\ --overwrite --download.mirror=https://npm.taobao.org/mirrors/electron/"
+    },
+    "author": "Pbin",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^1.4.1"
+    }
+}
